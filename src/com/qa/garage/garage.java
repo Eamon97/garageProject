@@ -1,9 +1,12 @@
 package com.qa.garage;
 
+import java.util.ArrayList;
+import com.qa.garage.*;
+
+
 public class garage {
 	
 	public static void calculateBill() {
-		
 		for(Vehicle:garage) {
 			if(Vehicle.productionYear>=2020) {
 				int bill=200;
@@ -15,7 +18,8 @@ public class garage {
 			}
 		}
 		
-		public static void removeVehicle() {
+		public static void removeAudi() {
+			garage.remove(Audi);
 			
 			
 		}
