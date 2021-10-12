@@ -51,6 +51,9 @@ public class runner {
 			
 		}
 		
+		public static void clearGarage() {
+			garage.clear();		}
+		
 	}
 }
 
